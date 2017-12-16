@@ -4,7 +4,7 @@ $(document).ready(start);
 
 function start(){
 $('#submit').on('click', addNewEmployee );
-$('#result').on('click', 'button', reset);
+$('#employees').on('click', 'button', reset);
 $('#employeeInfo').on('click', '.delete', deleteEmployee);
 
 
@@ -42,9 +42,8 @@ function calculateMonthlyCost(addedEmployee){
 }//end monthly salary function
 function deleteEmployee(){
     $(this).parents('tr').remove();
-
 }
 function reset(){
-  $('#result').empty();
+  $('#imput').empty();
   $('input').val('');
 }
