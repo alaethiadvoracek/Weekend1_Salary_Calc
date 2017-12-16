@@ -1,0 +1,50 @@
+header{
+  text-align: center;
+  background-color: rgb(174, 139, 184);
+  color: Black;
+  font-family: cursive;
+  padding: 20px;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+table, th, td{
+  text-align: center;
+  background-color: rgb(173, 169, 172);
+  color: rgb(174, 101, 186);
+  font-family: fantasy;
+  padding: 10px;
+  border: 2px dashed Black;
+}
+
+input{
+  align-items: inherit;
+  display: inline;
+  padding: 14px;
+  text-align: center;
+  font-family: fantasy;
+  color: Black;
+  border-style: ridge;
+  border-color: Black;
+}
+input[type="text"]{
+  font-size: 12px;
+}
+input[type="number"]{
+  font-size: 12px;
+}
+button{
+  padding: 5px;
+  background-color: rgb(174, 139, 184);
+  color: rgb(13, 13, 12);
+}
+h2{
+  font-family: cursive;
+  font-size: 30px;
+  text-align: right;
+}
+
+h3{
+  text-align: right;
+  font-size: 19px;
+
+}

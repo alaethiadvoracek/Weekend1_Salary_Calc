@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Salary Calculator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Salary Calculator</h1>
+    </header>
+    <input type="text" id="fName" placeholder="First Name">
+    <input type="text" id="lName" placeholder="Last Name">
+    <input type="number" id="idNum" placeholder=" ID number">
+    <input type="text" id="title" placeholder="Job Title">
+    <input type="number" id="salary" placeholder="Salary">
+    <button id="submit" type="button">Submit</button>
+  <table id="result">
+    <thead>
+      <tr>
+        <th>Employee Name</th>
+        <th>ID Number</th>
+        <th>Job Title</th>
+        <th>Salary</th>
+      </tr>
+    </thead>
+    <tbody id= "employeeInfo">
+    </tbody>
+  </table>
+  <div id= "monthlyCost" >
+    <h2>Monthly Cost</h2>
+      <h3></h3>
+  </div>
+  </body>
+</html>
